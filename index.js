@@ -20,7 +20,10 @@ var generateTwoRandomNumbers = () => {
         var getHeadingElement = document.querySelector(".heading");
         getHeadingElement.textContent = "Player 2 Wins!";
     }
-    
+    else{
+        var getHeadingElement = document.querySelector(".heading");
+        getHeadingElement.textContent = "Nobody Wins!";
+    }
     switch (randomNumber1) {
         case 1:
             getPlayerOneElement.setAttribute("src", "images/dice1.png")
